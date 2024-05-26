@@ -1,15 +1,15 @@
 # Technical quality
 
 ## Load HCC_XYZ segmentation and CT (30%)
-- [ ] Both images are loaded with PyDicom, and their corresponding headers have been studied.
-- [ ] The slices of the CT image contain only a single acquisition.
-- [ ] The segmentation image is resliced according to the dicom headers.
-- [ ] The four regions of interest appear on a segmentation (i.e. label image).
+- [x] Both images are loaded with PyDicom, and their corresponding headers have been studied.
+- [x] The slices of the CT image contain only a single acquisition.
+- [x] The segmentation image is resliced according to the dicom headers.
+- [x] The four regions of interest appear on a segmentation (i.e. label image).
 
 ## Rotating MIP (20%)
-- [ ] At least one Maximum Intensity Projection has been created.
-- [ ] The image and the regions are both clearly identifiable: colormaps have been correctly used, alpha fusion is used.
-- [ ] An interactive animation with at least 16 projections has been showed.
+- [x] At least one Maximum Intensity Projection has been created.
+- [x] The image and the regions are both clearly identifiable: colormaps have been correctly used, alpha fusion is used.
+- [x] An interactive animation with at least 16 projections has been showed.
 
 ## Image coregistration (30%)
 - [ ] A rigid motion has been implemented.
@@ -27,12 +27,12 @@
 # Documentation
 
 ## Document
-- [ ] Written expression is correct and accurate.
+- [x] Written expression is correct and accurate.
 - [ ] Covers all the objectives.
-- [ ] Shows figures of images/ROIs when necessary.
-- [ ] Includes discussions on why certain approaches were preferred over others.
-- [ ] Includes a relevant discussion of the findings and shortcomings of the project.
+- [x] Shows figures of images/ROIs when necessary.
+- [x] Includes discussions on why certain approaches were preferred over others.
+- [x] Includes a relevant discussion of the findings and shortcomings of the project.
 
 ## Code
 - [x] Is publicly accessible
-- [ ] It contains a Readme and is easy to follow
+- [x] It contains a Readme and is easy to follow
